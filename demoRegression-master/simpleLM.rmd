@@ -58,7 +58,6 @@ summary.lm(bHEADWTH)
 
 After comparing the neck model, HEADLEN model, AGE, and HEADWTH in order from biggest to smallest and the results are HEADLEN-0.8434 , the neck model-0.7476, and lastly the HEADWTH model- 0.5321, lastly the AGE model-0.5073
 
-
 ```{r}
 bCHEST <- lm(LENGTH ~ CHEST, data = bears)
 plot(LENGTH~CHEST,data=bears)
@@ -66,3 +65,11 @@ abline(bCHEST)
 summary.lm(bCHEST)
 ```
 After comparing the neck model, HEADLEN model, AGE, HEADWTH, and CHEST model in order from biggest to smallest and the results with the HEADLEN model being the highest still at-0.8434 ,than the CHEST model being at- 0.7869,the neck model-0.7476, and lastly the HEADWTH model- 0.5321, lastly the AGE model-0.5073
+
+
+```{r}
+bWEIGHT <- lm(LENGTH ~ WEIGHT, data = bears)
+plot(LENGTH~WEIGHT,data=bears)
+abline(bWEIGHT)
+summary.lm(bWEIGHT)
+```
