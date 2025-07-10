@@ -49,10 +49,11 @@ summary.lm(bHEADLEN)
 
  after comparing the neck model, the age model and the HEADLEN model. In order from biggest to the smallest  the difference is for HEADLEN  0.8434 , the neck model is  0.7476 , and lastly the age model is 0.5073. 
  
- 
 ```{r}
 bHEADWTH <- lm(LENGTH ~ HEADWTH, data = bears)
 plot(LENGTH~HEADWTH,data=bears)
 abline(bHEADWTH)
 summary.lm(bHEADWTH)
 ```
+
+After comparing the neck model, HEADLEN model, AGE, and HEADWTH in order from biggest to smallest and the results are HEADLEN-0.8434 , the neck model-0.7476, and lastly the HEADWTH model- 0.5321, lastly the AGE model-0.5073
