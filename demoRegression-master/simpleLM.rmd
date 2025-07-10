@@ -73,3 +73,5 @@ plot(LENGTH~WEIGHT,data=bears)
 abline(bWEIGHT)
 summary.lm(bWEIGHT)
 ```
+
+After comparing the neck model, HEADLEN model, AGE, HEADWTH, CHEST model, AND WEIGHT model in order from biggest to smallest and the results with the HEADLEN model being the highest still at-0.8434 ,than the CHEST model being at- 0.7869,the neck model-0.7476,the WEIGHT model-0.7423, the HEADWTH model- 0.5321,lastly the AGE model-0.5073
