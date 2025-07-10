@@ -38,4 +38,4 @@ summary.lm(bAGE)
 ```
 
 we want to compare the model with age to the other model with neck.
-Ordering by adjusted R-squared in the model with neck we got 0.7476 and with the age model it was 0.5073.  
+Ordering by adjusted R-squared in the model with neck we got 0.7476 and with the age model it was 0.5073. Using this method neck is better than age.   
