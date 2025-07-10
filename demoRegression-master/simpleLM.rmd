@@ -21,7 +21,7 @@ bears$MONTH<- as.factor(bears$MONTH)
 ## Model LENGTH ~ NECK  this is an example  
 
 ```{r}
-simp <- lm(LENGTH~NECK,data=bears)
+simp <- lm(LENGTH ~ NECK, data = bears)
 plot(LENGTH~NECK,data=bears)
 abline(simp)
 summary.lm(simp)
@@ -30,3 +30,11 @@ summary.lm(simp)
 
 ## Compare all models that predict WEIGHT other than NECK. Then order them from worst to best by its value of Adjusted-Rsquared (bigger is better), or by RSE (residual standard error) where smaller is better. 
 
+```{r}
+bAGE <- lm(LENGTH ~ AGE, data = bears)
+plot(LENGTH~AGE,data=bears)
+abline(bAGE)
+summary.lm(bAGE)
+```
+
+we want to compare the model with age to the other model with neck.
